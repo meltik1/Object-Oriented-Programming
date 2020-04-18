@@ -1,0 +1,23 @@
+#ifndef ERROR_HANDLER_H
+#define ERROR_HANDLER_H
+#include <QMessageBox>
+
+
+
+
+enum errors {
+    DATA_READ_ERROR,
+    FILE_OPENING_ERROR,
+    MEMORY_ALLOCATION_ERROR,
+    MODEL_IS_NOT_INITIALIZED,
+    WRONG_NUMBER_OF_NODES,
+    WRONG_NUMBER_OF_EDGES,
+    NO_SUCH_COMMAND,
+    NO_SCENE_DETECTED,
+    INVALID_ROTAION_TYPE,
+    OK
+};
+
+int error_handler(errors error_type);
+
+#endif // ERROR_HANDLER_H

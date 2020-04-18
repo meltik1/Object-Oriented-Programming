@@ -1,0 +1,7 @@
+#ifndef DEFINES_AND_GLOBALS_H
+#define DEFINES_AND_GLOBALS_H
+
+#define pi_num 3.14159265
+
+
+#endif // DEFINES_AND_GLOBALS_H
